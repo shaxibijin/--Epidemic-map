@@ -16,7 +16,7 @@ import java.util.Date;
 @Component
 public class DateConverter implements Converter<String, Date> {
     public static Logger logger = Logger.getLogger(DateConverter.class);
-    public SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd");
+    private SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd");
     /**
      * 实现转换的方法
      * @param s
@@ -24,12 +24,12 @@ public class DateConverter implements Converter<String, Date> {
      */
     @Override
     public Date convert(String s) {
-        if(s==null||s.length()==0) {
+        if(s==null || s.length()==0) {
             return null;
         }
         Date date = null;
-        try{
-            date = sdf.parse(s);//将字符串转为日期
+        try {
+            date = sdf.parse(s);//将字符串转为日期,ctrl+alt+t
         } catch (ParseException e){
             logger.error("转换的参数"+s+"为日期时出错："+e.getMessage());
 

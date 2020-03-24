@@ -7,6 +7,7 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 
+import java.util.Scanner;
 /**
  * 控制层-访问service
  */
@@ -23,8 +24,8 @@ public class UserController {
             model.addAttribute("msg","帐号不正确");
             return "login";
         }
-        //登陆成功
-        if (user.getPassword().equals(userInfo.getPassword())){
+        //登录成功
+        if(user.getPassword().equals(userInfo.getPassword())){
             return "redirect:/epidemic.jsp";
         }
         model.addAttribute("msg","帐号不正确");

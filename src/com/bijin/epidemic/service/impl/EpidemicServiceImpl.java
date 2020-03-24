@@ -11,24 +11,23 @@ import org.springframework.stereotype.Service;
 import java.util.*;
 
 /**
- * 疫情数据实现类
+ * 疫情业务实现类
  */
 @Service
 public class EpidemicServiceImpl implements EpidemicService {
     @Autowired
     private EpidemicMapper epidemicMapper;
     /**
-     * 获取最新疫情数据信息
-     *
+     * 获取最新疫情数据
      * @return
      */
     @Override
     public List<EpidemicDetailInfo> findLastestData() {
-        //查询每个省份的累积数量和当日新增数量
+        //查询每个省份的累计数量和当日新增数量
         Calendar calendar = new GregorianCalendar();//获取当前日期
         short year = 0,month = 0,day = 0;
         year = (short)calendar.get(Calendar.YEAR);
-        month = (short)calendar.get(Calendar.MONTH);
+        month = (short)(calendar.get(Calendar.MONTH)+1);
         day = (short)calendar.get(Calendar.DATE);
 
         //将数据封装到Map集合中

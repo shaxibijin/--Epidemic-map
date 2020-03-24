@@ -16,8 +16,8 @@ public class EpidemicInfo {
     private Short dataDay;//日
     //确诊人数、疑似人数、治愈人数、隔离人数、死亡人数（每一天的新增数据）
     private Integer affirmed,suspected,cured,isolated,dead;
-    private Integer userId;
-    private Date inputDate;
+    private Integer userId;//用户编号
+    private Date inputDate;//录入时间
 
     public Integer getSerialId() {
         return serialId;

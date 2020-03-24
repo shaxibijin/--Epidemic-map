@@ -6,7 +6,92 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="66edcd9e-c5ba-4ec1-86cb-7c213bf379e6" name="Default Changelist" comment="" />
+    <list default="true" id="66edcd9e-c5ba-4ec1-86cb-7c213bf379e6" name="Default Changelist" comment="前端完成，地图、表格和柱状图正常显示">
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/epidemic/WEB-INF/classes/META-INF/epidemic.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/epidemic/WEB-INF/classes/com/bijin/epidemic/beans/AjaxResponseInfo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/epidemic/WEB-INF/classes/com/bijin/epidemic/controller/EpidemicController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/epidemic/WEB-INF/classes/com/bijin/epidemic/service/EpidemicService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/epidemic/WEB-INF/classes/com/bijin/epidemic/service/impl/EpidemicServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/epidemic/WEB-INF/classes/com/bijin/epidemic/service/impl/UserServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/epidemic/bootstrap/css/bootstrap-theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/epidemic/bootstrap/css/bootstrap-theme.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/epidemic/bootstrap/css/bootstrap-theme.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/epidemic/bootstrap/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/epidemic/bootstrap/css/bootstrap.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/epidemic/bootstrap/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/epidemic/bootstrap/datepicker/bootstrap-datepicker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/epidemic/bootstrap/datepicker/bootstrap-datepicker.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/epidemic/bootstrap/datepicker/bootstrap-datepicker.zh-CN.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/epidemic/bootstrap/datepicker/bootstrap-datepicker3.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/epidemic/bootstrap/datepicker/bootstrap-datepicker3.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/epidemic/bootstrap/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/epidemic/bootstrap/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/epidemic/bootstrap/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/epidemic/bootstrap/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/epidemic/bootstrap/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/epidemic/bootstrap/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/epidemic/bootstrap/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/epidemic/bootstrap/js/html5shiv.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/epidemic/bootstrap/js/jquery-1.11.2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/epidemic/bootstrap/js/npm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/epidemic/bootstrap/js/respond.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/epidemic/echarts/china.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/epidemic/echarts/echarts.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/epidemic/META-INF/epidemic.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/epidemic/com/bijin/epidemic/beans/AjaxResponseInfo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/epidemic/com/bijin/epidemic/controller/EpidemicController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/epidemic/com/bijin/epidemic/service/EpidemicService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/epidemic/com/bijin/epidemic/service/impl/EpidemicServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/epidemic/com/bijin/epidemic/service/impl/UserServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/bootstrap/css/bootstrap-theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/bootstrap/css/bootstrap-theme.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/bootstrap/css/bootstrap-theme.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/bootstrap/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/bootstrap/css/bootstrap.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/bootstrap/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/bootstrap/datepicker/bootstrap-datepicker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/bootstrap/datepicker/bootstrap-datepicker.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/bootstrap/datepicker/bootstrap-datepicker.zh-CN.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/bootstrap/datepicker/bootstrap-datepicker3.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/bootstrap/datepicker/bootstrap-datepicker3.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/bootstrap/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/bootstrap/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/bootstrap/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/bootstrap/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/bootstrap/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/bootstrap/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/bootstrap/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/bootstrap/js/html5shiv.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/bootstrap/js/jquery-1.11.2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/bootstrap/js/npm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/bootstrap/js/respond.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/echarts/china.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/echarts/echarts.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/epidemic/WEB-INF/classes/com/bijin/epidemic/EpidemicApplicationInitializer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/epidemic/WEB-INF/classes/com/bijin/epidemic/EpidemicApplicationInitializer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/epidemic/WEB-INF/classes/com/bijin/epidemic/common/DateConverter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/epidemic/WEB-INF/classes/com/bijin/epidemic/common/DateConverter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/epidemic/WEB-INF/classes/com/bijin/epidemic/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/epidemic/WEB-INF/classes/com/bijin/epidemic/controller/UserController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/epidemic/WEB-INF/classes/com/bijin/epidemic/mapper/EpidemicMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/epidemic/WEB-INF/classes/com/bijin/epidemic/mapper/EpidemicMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/epidemic/WEB-INF/classes/com/bijin/epidemic/service/impl/UserServicelmpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/epidemic/epidemic.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/epidemic/epidemic.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/epidemic/com/bijin/epidemic/EpidemicApplicationInitializer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/epidemic/com/bijin/epidemic/EpidemicApplicationInitializer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/epidemic/com/bijin/epidemic/common/DateConverter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/epidemic/com/bijin/epidemic/common/DateConverter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/epidemic/com/bijin/epidemic/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/epidemic/com/bijin/epidemic/controller/UserController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/epidemic/com/bijin/epidemic/mapper/EpidemicMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/epidemic/com/bijin/epidemic/mapper/EpidemicMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/epidemic/com/bijin/epidemic/service/impl/UserServicelmpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/bijin/epidemic/EpidemicApplicationInitializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/bijin/epidemic/EpidemicApplicationInitializer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/bijin/epidemic/beans/AjaxResponseInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/bijin/epidemic/beans/AjaxResponseInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/bijin/epidemic/beans/EpidemicInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/bijin/epidemic/beans/EpidemicInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/bijin/epidemic/common/DateConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/bijin/epidemic/common/DateConverter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/bijin/epidemic/controller/EpidemicController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/bijin/epidemic/controller/EpidemicController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/bijin/epidemic/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/bijin/epidemic/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/bijin/epidemic/mapper/EpidemicMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/bijin/epidemic/mapper/EpidemicMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/bijin/epidemic/service/impl/EpidemicServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/bijin/epidemic/service/impl/EpidemicServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/bijin/epidemic/service/impl/UserServicelmpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/bijin/epidemic/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/epidemic.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/epidemic.jsp" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -21,6 +106,15 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
+  </component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
     <option name="FILTER_WARNINGS" value="false" />
@@ -29,6 +123,7 @@
     <option name="CUSTOM_FILTER" />
   </component>
   <component name="ProjectId" id="1YiBdJltgmrQ88O9TZXadEPnjsr" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -36,9 +131,10 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/web/WEB-INF/lib/spring-webmvc-4.3.3.RELEASE.jar!/" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/epidemic/web/epidemic.jsp" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -48,7 +144,8 @@
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="File.Encoding" />
+    <property name="two.files.diff.last.used.file" value="$USER_HOME$/Desktop/epidemic/web/epidemic.jsp" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -57,9 +154,16 @@
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\IdeaProjects\epidemic\web\WEB-INF\lib" />
+      <recent name="D:\IdeaProjects\epidemic\web" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JavaScript Debug.epidemic.jsp">
+    <configuration name="epidemic.jsp" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:8080/epidemic/epidemic.jsp">
+      <method v="2" />
+    </configuration>
+    <configuration name="login.jsp" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:8080/epidemic/login.jsp">
+      <method v="2" />
+    </configuration>
     <configuration name="Tomcat 8.5.51" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.51" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
       <option name="BROWSER_ID" value="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" />
       <option name="SHOW_DIALOG_ON_UPDATE" value="false" />
@@ -206,16 +310,28 @@
         </option>
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.epidemic.jsp" />
+        <item itemvalue="JavaScript Debug.login.jsp" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
       <list>
         <serviceView>
+          <option name="contentProportion" value="0.1646175" />
           <treeState>
             <expand>
               <path>
                 <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
                 <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="Finished" type="7427dc5b:ServiceModel$ServiceGroupNode" />
               </path>
             </expand>
             <select />
@@ -244,12 +360,19 @@
       <workItem from="1584255283525" duration="3659000" />
       <workItem from="1584365190903" duration="3294000" />
       <workItem from="1584375647660" duration="604000" />
-      <workItem from="1584412665596" duration="1373000" />
+      <workItem from="1584412665596" duration="6400000" />
+      <workItem from="1584958261243" duration="2052000" />
+      <workItem from="1584969447748" duration="6740000" />
+      <workItem from="1585032860693" duration="19584000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="前端完成，地图、表格和柱状图正常显示" />
+    <option name="LAST_COMMIT_MESSAGE" value="前端完成，地图、表格和柱状图正常显示" />
   </component>
   <component name="WindowStateProjectService">
     <state x="361" y="71" key="#Project_Structure" timestamp="1583418089703">
@@ -269,94 +392,113 @@
     </state>
     <state x="574" y="121" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824/1920.0.1440.860@0.0.1536.824" timestamp="1583488745922" />
     <state x="574" y="121" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1584414175378" />
-    <state x="466" y="154" key="FileChooserDialogImpl" timestamp="1583417573836">
+    <state x="353" y="5" key="CommitChangelistDialog2" timestamp="1585061091666">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="353" y="5" key="CommitChangelistDialog2/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1585061091666" />
+    <state x="167" y="15" width="1350" height="633" key="DiffContextDialog" timestamp="1585061077288">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="167" y="15" width="1350" height="633" key="DiffContextDialog/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1585061077288" />
+    <state x="466" y="154" key="FileChooserDialogImpl" timestamp="1585061058542">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="466" y="154" key="FileChooserDialogImpl/0.0.1536.824/1920.0.1440.860@0.0.1536.824" timestamp="1583417573836" />
-    <state width="1024" height="156" key="GridCell.Tab.0.bottom" timestamp="1584259839636">
+    <state x="466" y="154" key="FileChooserDialogImpl/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1585061058542" />
+    <state width="1222" height="213" key="GridCell.Tab.0.bottom" timestamp="1585060480240">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1024" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.1440.860@0.0.1536.824" timestamp="1583419838751" />
-    <state width="1024" height="156" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1584259839636" />
+    <state width="1222" height="213" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1585060480240" />
     <state width="1024" height="454" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1584123627247" />
-    <state width="1024" height="156" key="GridCell.Tab.0.center" timestamp="1584259839636">
+    <state width="1222" height="213" key="GridCell.Tab.0.center" timestamp="1585060480240">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1024" height="210" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.1440.860@0.0.1536.824" timestamp="1583419838751" />
-    <state width="1024" height="156" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1584259839636" />
+    <state width="1222" height="213" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1585060480240" />
     <state width="1024" height="454" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1584123627247" />
-    <state width="1024" height="156" key="GridCell.Tab.0.left" timestamp="1584259839636">
+    <state width="1222" height="213" key="GridCell.Tab.0.left" timestamp="1585060480240">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1024" height="210" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.1440.860@0.0.1536.824" timestamp="1583419838751" />
-    <state width="1024" height="156" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1584259839636" />
+    <state width="1222" height="213" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1585060480240" />
     <state width="1024" height="454" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1584123627247" />
-    <state width="1024" height="156" key="GridCell.Tab.0.right" timestamp="1584259839636">
+    <state width="1222" height="213" key="GridCell.Tab.0.right" timestamp="1585060480240">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1024" height="210" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.1440.860@0.0.1536.824" timestamp="1583419838751" />
-    <state width="1024" height="156" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1584259839636" />
+    <state width="1222" height="213" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1585060480240" />
     <state width="1024" height="454" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1584123627247" />
-    <state width="1024" height="156" key="GridCell.Tab.1.bottom" timestamp="1584259839637">
+    <state width="1222" height="213" key="GridCell.Tab.1.bottom" timestamp="1585060480241">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1024" height="210" key="GridCell.Tab.1.bottom/0.0.1536.824/1920.0.1440.860@0.0.1536.824" timestamp="1583419838751" />
-    <state width="1024" height="156" key="GridCell.Tab.1.bottom/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1584259839637" />
+    <state width="1222" height="213" key="GridCell.Tab.1.bottom/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1585060480241" />
     <state width="1024" height="454" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1584123627247" />
-    <state width="1024" height="156" key="GridCell.Tab.1.center" timestamp="1584259839636">
+    <state width="1222" height="213" key="GridCell.Tab.1.center" timestamp="1585060480240">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1024" height="210" key="GridCell.Tab.1.center/0.0.1536.824/1920.0.1440.860@0.0.1536.824" timestamp="1583419838751" />
-    <state width="1024" height="156" key="GridCell.Tab.1.center/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1584259839636" />
+    <state width="1222" height="213" key="GridCell.Tab.1.center/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1585060480240" />
     <state width="1024" height="454" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1584123627247" />
-    <state width="1024" height="156" key="GridCell.Tab.1.left" timestamp="1584259839636">
+    <state width="1222" height="213" key="GridCell.Tab.1.left" timestamp="1585060480240">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1024" height="210" key="GridCell.Tab.1.left/0.0.1536.824/1920.0.1440.860@0.0.1536.824" timestamp="1583419838751" />
-    <state width="1024" height="156" key="GridCell.Tab.1.left/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1584259839636" />
+    <state width="1222" height="213" key="GridCell.Tab.1.left/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1585060480240" />
     <state width="1024" height="454" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1584123627247" />
-    <state width="1024" height="156" key="GridCell.Tab.1.right" timestamp="1584259839637">
+    <state width="1222" height="213" key="GridCell.Tab.1.right" timestamp="1585060480240">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1024" height="210" key="GridCell.Tab.1.right/0.0.1536.824/1920.0.1440.860@0.0.1536.824" timestamp="1583419838751" />
-    <state width="1024" height="156" key="GridCell.Tab.1.right/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1584259839637" />
+    <state width="1222" height="213" key="GridCell.Tab.1.right/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1585060480240" />
     <state width="1024" height="454" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1584123627247" />
-    <state width="1024" height="156" key="GridCell.Tab.2.bottom" timestamp="1584259839637">
+    <state width="1222" height="213" key="GridCell.Tab.2.bottom" timestamp="1585060480241">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1024" height="210" key="GridCell.Tab.2.bottom/0.0.1536.824/1920.0.1440.860@0.0.1536.824" timestamp="1583419838751" />
-    <state width="1024" height="156" key="GridCell.Tab.2.bottom/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1584259839637" />
+    <state width="1222" height="213" key="GridCell.Tab.2.bottom/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1585060480241" />
     <state width="1024" height="454" key="GridCell.Tab.2.bottom/0.0.1536.824@0.0.1536.824" timestamp="1584123627248" />
-    <state width="1024" height="156" key="GridCell.Tab.2.center" timestamp="1584259839637">
+    <state width="1222" height="213" key="GridCell.Tab.2.center" timestamp="1585060480241">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1024" height="210" key="GridCell.Tab.2.center/0.0.1536.824/1920.0.1440.860@0.0.1536.824" timestamp="1583419838751" />
-    <state width="1024" height="156" key="GridCell.Tab.2.center/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1584259839637" />
+    <state width="1222" height="213" key="GridCell.Tab.2.center/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1585060480241" />
     <state width="1024" height="454" key="GridCell.Tab.2.center/0.0.1536.824@0.0.1536.824" timestamp="1584123627247" />
-    <state width="1024" height="156" key="GridCell.Tab.2.left" timestamp="1584259839637">
+    <state width="1222" height="213" key="GridCell.Tab.2.left" timestamp="1585060480241">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1024" height="210" key="GridCell.Tab.2.left/0.0.1536.824/1920.0.1440.860@0.0.1536.824" timestamp="1583419838751" />
-    <state width="1024" height="156" key="GridCell.Tab.2.left/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1584259839637" />
+    <state width="1222" height="213" key="GridCell.Tab.2.left/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1585060480241" />
     <state width="1024" height="454" key="GridCell.Tab.2.left/0.0.1536.824@0.0.1536.824" timestamp="1584123627247" />
-    <state width="1024" height="156" key="GridCell.Tab.2.right" timestamp="1584259839637">
+    <state width="1222" height="213" key="GridCell.Tab.2.right" timestamp="1585060480241">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1024" height="210" key="GridCell.Tab.2.right/0.0.1536.824/1920.0.1440.860@0.0.1536.824" timestamp="1583419838751" />
-    <state width="1024" height="156" key="GridCell.Tab.2.right/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1584259839637" />
+    <state width="1222" height="213" key="GridCell.Tab.2.right/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1585060480241" />
     <state width="1024" height="454" key="GridCell.Tab.2.right/0.0.1536.824@0.0.1536.824" timestamp="1584123627248" />
-    <state x="270" y="0" key="SettingsEditor" timestamp="1583488400073">
+    <state x="270" y="0" key="SettingsEditor" timestamp="1585039367689">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="270" y="0" key="SettingsEditor/0.0.1536.824/1920.0.1440.860@0.0.1536.824" timestamp="1583488400073" />
-    <state x="449" y="237" key="com.intellij.ide.util.TipDialog" timestamp="1584413648961">
+    <state x="270" y="0" key="SettingsEditor/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1585039367689" />
+    <state x="449" y="237" key="com.intellij.ide.util.TipDialog" timestamp="1585032864672">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="449" y="237" key="com.intellij.ide.util.TipDialog/0.0.1536.824/1920.0.1440.860@0.0.1536.824" timestamp="1583564127030" />
-    <state x="449" y="237" key="com.intellij.ide.util.TipDialog/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1584413648961" />
-    <state x="414" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1584032426256">
+    <state x="449" y="237" key="com.intellij.ide.util.TipDialog/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1584969456614" />
+    <state x="449" y="237" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1585032864672" />
+    <state x="562" y="330" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1585060287642">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="414" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1584032426256" />
+    <state x="562" y="330" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1585060287642" />
+    <state x="455" y="204" key="git4idea.merge.GitPullDialog" timestamp="1585060773930">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="455" y="204" key="git4idea.merge.GitPullDialog/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1585060773930" />
+    <state x="414" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1585054237924">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="414" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1585054237924" />
   </component>
 </project>
