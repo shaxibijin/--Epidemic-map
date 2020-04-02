@@ -11,6 +11,15 @@
         </webroots>
       </configuration>
     </facet>
+    <facet type="Spring" name="Spring">
+      <configuration>
+        <fileset id="fileset" name="Spring Application Context" removed="false">
+          <file>file://$MODULE_DIR$/src/com/bijin/epidemic/MyBatisConfig.java</file>
+          <file>file://$MODULE_DIR$/src/com/bijin/epidemic/SpringConfig.java</file>
+          <file>file://$MODULE_DIR$/src/com/bijin/epidemic/SpringMVCConfig.java</file>
+        </fileset>
+      </configuration>
+    </facet>
   </component>
   <component name="NewModuleRootManager" inherit-compiler-output="true">
     <exclude-output />

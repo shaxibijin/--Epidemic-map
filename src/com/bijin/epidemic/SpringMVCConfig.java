@@ -39,6 +39,6 @@ public class SpringMVCConfig extends WebMvcConfigurerAdapter {
 
     @Override
     public void configureDefaultServletHandling(DefaultServletHandlerConfigurer configurer) {
-        configurer.enable();//启用
+        configurer.enable();//启用默认的servlet配置
     }
 }

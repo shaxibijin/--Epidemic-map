@@ -1,5 +1,6 @@
 package com.bijin.epidemic;
 
+import org.springframework.context.ApplicationContextInitializer;
 import org.springframework.web.servlet.support.AbstractAnnotationConfigDispatcherServletInitializer;
 
 /**
@@ -15,7 +16,7 @@ public class EpidemicApplicationInitializer extends AbstractAnnotationConfigDisp
     @Override
     protected Class<?>[] getServletConfigClasses() {
         //Spring MVC的配置类
-        return new Class[]{};
+        return new Class[]{SpringMVCConfig.class};
     }
 
     @Override
